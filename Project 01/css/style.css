@@ -1,0 +1,421 @@
+/* ========================font link part start====================== */
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ========================font link part end====================== */
+
+/* ======================== coomoncss part start====================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+
+/* ========================common css part end====================== */
+/* ========================menubar part start====================== */
+#menubar{
+    padding-top: 52px;
+}
+.menu-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-row .menu-logo img{
+    width: 133px;
+}
+.menu-text{
+    display: flex;
+    align-items: center;
+}
+.menu-text ul{
+    display: flex;
+    gap: 59px;
+}
+.menu-row .menu-text ul li a{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    transition: all linear 0.3s;
+}
+.menu-row .menu-text ul li a:hover{
+    color: #FDBB57;
+}
+.menu-row .menu-button ul{
+    display: flex;
+    gap: 10px;
+}
+.menu-row .menu-button ul li{
+    width: 121px;
+    height: 57px;
+    background-color: #fff;
+    border: 1px solid #FFD687;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    text-align: center;
+    line-height: 57px;
+    transition: all linear 0.3s;
+}
+.menu-row .menu-button ul li a{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+.menu-row .menu-button ul li:hover{
+    background-color: #FDBB57;
+    box-shadow: none;
+}
+
+/* ========================menubar part ebd====================== */
+
+/* ========================banner part start====================== */
+.banner-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 112px;
+    margin-right: 26px;
+
+}
+.banner-text h1{
+    width: 449px;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.banner-text p{
+    width: 531px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin-top: 38px;
+    margin-bottom: 76px;
+}
+.banner-text a{
+    width: 319px;
+    height: 86px;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    line-height: 86px;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.banner-text a:hover{
+    background-color: #FDBB57;
+    color: #000;
+}
+.banner-row .banner-img img{
+    width: 627px;
+}
+/* ========================banner part end====================== */
+
+/* ========================collection part start====================== */
+#collection{
+    margin-top: 100px;
+}
+#collection .collection-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.collection-text h2{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #000;
+}
+.collection-text p{
+    width: 732px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+.collection-row{
+    margin-top: 40px;
+    display: flex;
+    gap: 91px;
+}
+.collection-row .collection-part-one{
+    background-image: url(../Images/collection_1.png);
+    width: 349px;
+    height: 402px;
+    position: relative;
+    overflow: hidden;
+}
+
+.collection-row .collection-part-one a{
+    width: 315.45px;
+    height: 57.13px;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border-radius: 20px;
+    position: absolute;
+    left: -370px;
+    bottom: 44px;
+    text-align: center;
+    line-height: 57.13px;
+    transition: all linear 0.4s;
+}
+.collection-row .collection-part-one a:hover{
+    background-color: #FFD687;
+    color: #fff;
+}
+.collection-row .collection-part-one:hover a{
+    left: 17px;
+}
+.collection-row .collection-part-two{
+    background-image: url(../Images/collection_2.png);
+    width: 349px;
+    height: 402px;
+    position: relative;
+    overflow: hidden;
+}
+
+.collection-row .collection-part-two a{
+    width: 315.45px;
+    height: 57.13px;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border-radius: 20px;
+    position: absolute;
+    top: -70px;
+    left: 20.89px;
+    text-align: center;
+    line-height: 57.13px;
+    transition: all linear 0.7s;
+}
+.collection-row .collection-part-two a:hover{
+    background-color: #FFD687;
+    color: #fff;
+}
+.collection-row .collection-part-two:hover a{
+    top: 303px;
+}
+.collection-row .collection-part-three{
+    background-image: url(../Images/collection_3.png);
+    width: 349px;
+    height: 402px;
+    position: relative;
+    overflow: hidden;
+}
+
+.collection-row .collection-part-three a{
+    width: 315.45px;
+    height: 57.13px;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border-radius: 20px;
+    position: absolute;
+    top: 303px;
+    right: -330.03px;
+    text-align: center;
+    line-height: 57.13px;
+    transition: all linear 0.4s;
+}
+.collection-row .collection-part-three a:hover{
+    background-color: #FFD687;
+    color: #fff;
+}
+.collection-row .collection-part-three:hover a{
+    right: 22.03px;
+    
+}
+
+/* ========================collection part end====================== */
+
+/* ========================fashion  part start====================== */
+#fashion{
+    margin-bottom: 96px;
+}
+
+.fashion-row .fashion-text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+}
+.fashion-text img{
+    width: 749px;
+    position: absolute;
+    left: 0px;
+    top: 97px;
+}
+.fashion-head{
+    margin-top: 212px;
+}
+.fashion-row .fashion-text .fashion-head h2{
+    width: 387px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+}
+.fashion-row .fashion-text .fashion-head p{
+    width: 443px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-top: 63px;
+    margin-bottom: 136px;
+}
+.fashion-row .fashion-text .fashion-counter{
+    width: 793px;
+    height: 280px;
+    background-color: #FEECC8;
+    padding-top: 75px;
+    padding-left: 29px;
+    border-radius: 20px;
+    display: flex;
+    gap: 78px;
+
+}
+.fashion-counter .count-one{
+    display: flex;
+    gap: 27px;   
+}
+.fashion-text .fashion-counter p{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;
+}
+.fashion-text .fashion-counter h4{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-top: 28px;
+    color: #000;
+}
+.fashion-counter .count-two{
+    display: flex;
+    gap: 44px;
+}
+.fashion-counter .line{
+    width: 1px;
+    height: 143px;
+    background-color: #000;
+}
+.fashion-counter .count-three{
+    margin-left: -34px;
+}
+/* ========================fashion part end====================== */
+/* ========================footer part start====================== */
+#footer{
+    width: 1440px;
+    background-color: #CFA485;
+    margin: 0 auto;
+}
+.footer-row{
+    display: flex;
+    gap: 26px;
+    padding-top: 64px;
+}
+.footer-row .footer-text{
+    margin-left: 77px;
+}
+.footer-row .footer-text h2{
+    width: 315px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #fff;
+
+}
+.footer-row .footer-text p{
+    width: 437px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #fff;
+    margin-top: 43px;
+    margin-bottom: 40px;
+}
+.footer-row .footer-text a{
+    width: 319px;
+    height: 86px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    line-height: 86px;
+    margin-bottom: 184px;
+    transition: all linear 0.6s;
+}
+.footer-row .footer-text a:hover{
+    background-color: #ffffff;
+    color: #000;
+}
+.footer-card-row{
+    display: flex;
+    gap: 31px;
+}
+.footer-card{
+    background: #ffffff;
+    width: 366px;
+    height: 551px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+
+}
+.footer-card img{
+    width: 366px;
+}
+.footer-row .footer-card-item{
+    margin-left: 22px;
+}
+.footer-row .footer-card ul{
+    display: flex;
+    gap: 7.75px;
+    padding-top: 14.24px;
+    color: #FFAF37;
+}
+.footer-row .footer-card h3{
+    width: 161px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-top: 11.58px;
+    margin-bottom: 9px;
+}
+.footer-row .footer-card p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.footer-row .footer-card p span{
+    color: #C4C4C4;
+    margin-right: 31px;
+}
+
+/* ========================footer part end====================== */
